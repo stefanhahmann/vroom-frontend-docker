@@ -18,6 +18,6 @@ COPY api.js /vroom-frontend/src/config/api.js
 
 WORKDIR /vroom-frontend
 
-EXPOSE 9000
+EXPOSE 9966
 
 CMD ["npm", "run", "serve"]
